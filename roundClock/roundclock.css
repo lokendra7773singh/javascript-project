@@ -1,0 +1,144 @@
+.main {
+    height: 400px;
+    width: 400px;
+    background-color: crimson;
+    position: relative;
+    border-radius: 100%;
+    top: 210px;
+    left: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+
+}
+
+.center {
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.number {
+    font-size: 24px;
+    color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.number12 {
+    position: absolute;
+    top: 0px;
+}
+
+.number6 {
+    position: absolute;
+    bottom: 0px;
+
+
+}
+
+.number3 {
+    position: absolute;
+    right: 0px;
+
+}
+
+.number9 {
+    position: absolute;
+
+    left: 0px;
+
+}
+
+.number1 {
+    position: absolute;
+    top: 30px;
+    right: 90px;
+}
+
+.number7 {
+    position: absolute;
+    bottom: 30px;
+    left: 90px;
+}
+
+
+.number2 {
+    position: absolute;
+    top: 100px;
+    right: 20px;
+}
+
+.number8 {
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+}
+
+.number4 {
+    position: absolute;
+    top: 290px;
+    right: 28px;
+}
+
+.number10 {
+    position: absolute;
+    bottom: 270px;
+    left: 18px;
+}
+
+
+.number5 {
+    position: absolute;
+    top: 345px;
+    right: 90px;
+}
+
+.number11 {
+    position: absolute;
+    bottom: 345px;
+    left: 90px;
+}
+
+.hour {
+    height: 120px;
+    width: 5px;
+    background-color: green;
+    position: absolute;
+    top: 80px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    /* transform: rotate(0deg); */
+    transform-origin: bottom;
+}
+
+.minut {
+    height: 140px;
+    width: 3px;
+    background-color: yellow;
+    position: absolute;
+    top: 60px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    /* transform: rotate(90deg); */
+    transform-origin: bottom;
+
+}
+
+.second {
+    height: 170px;
+    width: 3px;
+    background-color: blue;
+    position: absolute;
+    top: 25px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    /* transform: rotate(70deg); */
+    transform-origin: bottom;
+    /* transition: 60s; */
+}
